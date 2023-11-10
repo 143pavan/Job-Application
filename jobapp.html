@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+<link href="jobapp.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container"></div>
+  <form class="form-control ">
+    <div class="container1">
+      <h1 >Job Application<span>(Development Role)</span></h1>
+      <div>
+    <label class="form-label ">First Name</label><br>
+    <input type="text" id="name" placeholder="Enter your FirstName" class="form-check-input "><br>
+    <span id="nameError" class="error"></span>
+    <label class="form-label ">Second Name</label><br>
+    <input type="text" id="sname" placeholder="Enter your SecondName" class="form-check-input "><br>
+    <span id="nameError" class="error"></span>
+    <label class="form-label ">Email</label><br>
+    <input type="email" id="email" placeholder="Enter your Email" class="form-check-input "><br>
+    <span id="emailError" class="error"></span>
+    <label class="form-label ">Job Role</label><br>
+    </div>
+    <select>
+      <option>Full JavaDeveloper</option>
+      <option>Full PythonDeveloper</option>
+      <option>Full UIDeveloper</option>
+      <option>Full DotnetDeveloper</option>
+    </select><br>
+    <label class="form-label ">Address</label><br>
+    <textarea id="address" cols="50" rows="4" placeholder=""></textarea><br>
+    <label class="form-label ">State</label><br>
+    <input type="text" id="state" placeholder="Enter your State Name" class="form-check-input "><br>
+    <label class="form-label ">Pincode</label><br>
+    <input type="number" id="Pincode" placeholder="Enter your pincode Number" class="form-check-input "><br>
+    <label class="form-label ">Date of Birth</label><br>
+    <input type="date" id="date" class="form-check-input "><br>
+    <label class="form-label ">Upload Resume</label><br>
+    <input type="file" id="file" class="form-check-input " multiple><br><br>
+    <button class="btn">Apply</button>
+    </div>
+  </form>
+  <script src="jobapp.js"></script>
+</body>
+</html>
